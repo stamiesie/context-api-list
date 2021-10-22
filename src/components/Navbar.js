@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <div className="navbar">
             <h1>Reading List</h1>
-            <p>There are currently { books.length } on your list</p>
+            <p>Books to read: { books.length }</p>
             
         </div>
     )
